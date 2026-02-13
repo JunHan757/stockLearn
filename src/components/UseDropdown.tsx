@@ -20,7 +20,7 @@ import NavItems from "@/components/NavItems";
 const UseDropdown = () => {
   const router: AppRouterInstance = useRouter();
 
-  //console.log("useRouter: ", router);
+  console.log("useRouter: ", router);
 
   const handleSignOut: () => Promise<void> = async () => {
     router.push("/sign-in");
